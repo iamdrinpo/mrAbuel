@@ -15,15 +15,15 @@ Inside each folder, you will find:
 ### **CURRENT REPO STRUCTURE**
 
 ```plaintext
-mr_christianAbuel/
+mrAbuel/
 │
-├── bubble_sort/
-│   ├── bubble_sort.py
-│   └── README.md
+├── computationalScience/
+│   ├── data_model
+│         └── ...
 │
-├── data_model/
-│   ├── data_model.py
-│   └── README.md
+├── dataStructuresAndAlgorithm/
+│   ├── bubble_sort
+│         └── ...
 └── ...
 ```
 
