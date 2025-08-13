@@ -1,4 +1,4 @@
-**Binary Search Tree (BST) Sorting Program**
+**Binary Search Tree (BST) Bubble Sort**
 
 This program lets you enter numbers, stores them in a Binary Search Tree, and then shows them sorted from smallest to largest. A Binary Search Tree is a structure where each number is stored in a "node." Each node can have a left child (smaller number) and a right child (larger number). This way, when the tree is read in order, the numbers come out sorted automatically.
 
