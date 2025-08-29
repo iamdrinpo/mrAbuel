@@ -1,13 +1,22 @@
-items = input("Enter numbers, letters, or words: ").split()
-order = input("(asc/desc): ").lower()
+# import random 
 
-nums = [int(i) for i in items if i.isdigit()]
-words = [i for i in items if not i.isdigit()]
+# items = input("Enter numbers, letters, or words: ").split()
+# order = input("(asc/desc): ").lower()
 
-# Sort numbers normally
-nums.sort(reverse=(order == "desc"))
+# nums = [int(i) for i in items if i.isdigit()]
+# words = [i for i in items if not i.isdigit()]
 
-# Sort words by length
-words.sort(key=len, reverse=(order == "desc"))
+# nums.sort(reverse=(order == "desc"))
+# words.sort(key=len, reverse=(order == "desc"))
 
-print("Sorted:", nums + words)
+# print("Sorted:", nums + words)
+
+
+words = ['apple, banana, cherry']
+found = False
+
+for word in words:
+    if 'apple' in word:
+        found = True
+        break
+print(f"{word} matched.")
