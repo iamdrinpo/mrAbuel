@@ -1,8 +1,8 @@
-Contacts - Exam Documentation
+## Contacts - Exam Documentation
 
 This program lets you create and manage a list of contacts. Each contact is saved using a first name, last name, and phone number. You can add new contacts, update existing ones, delete them, search for them, and display all saved contacts. The contacts are stored in memory using a Python dictionary, so once the program is closed, the list is cleared.
 
-How it works
+___How it works___
 
 When you add a contact, the program combines the first and last name to make a full name. That full name is used as the key in the dictionary, and the phone number is the value.
 
@@ -46,11 +46,8 @@ John Doe was successfully added.
 
 1 to add, 2 to delete, 3 to update, 4 to search, 5 to display, 6 to exit: 5
 
-===CONTACT LIST===
-John Doe : 1234567890
+____Requirements___
 
-Requirements
-
-Python 3 installed on your computer.
+__Python 3 installed on your computer.__
 
 Any text editor or IDE (like VS Code, PyCharm, or even Notepad).
